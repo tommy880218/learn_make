@@ -1,14 +1,16 @@
 ---
 title: "Learn Make"
-author: ""
-date: ""
-output: 
+author: ''
+date: ''
+output:
   html_document:
     css: learn_make.css
-    toc: true
-    number_sections: false
-    toc_float: true
     df_print: paged
+    number_sections: no
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
